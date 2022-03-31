@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Responsive Website</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+           <div class="logo">
+             <h2 class="logo_name">
+                <i class='bx bx-user bx-spin' ></i>
+                 Username
+             </h2>
+
+           </div>
+            <div class="btn_toggle">  
+                <i class='bx bx-menu bx-tada' ></i>
+            </div>
+        </div>
+        <ul class="nav">
+            <li>
+            <a href="#">
+                <i class='bx bx-group' ></i>
+                <span>Clients</span>
+            </a>
+            </li>
+            <li>
+                <a href="#">
+                <i class='bx bx-search' ></i>
+                <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <i class='bx bx-calendar' ></i>
+                <span>Status</span>
+                </a>
+            </li> 
+            <li>
+                <a href="#">
+                <i class='bx bx-comment' ></i>
+                <span>Comments</span>
+                </a>
+            </li> 
+            <li>
+                <a href="#">
+                <i class='bx bx-log-out' ></i>
+                <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="wrapper">
+     <div class="itema">
+        <h2 style="border: 2px solid rgb(163, 125, 125);background-color: rgb(223, 209, 191);">Most leads</h2>
+     <form class="form">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="number">Phone no.:</label>
+    <input type="tel" id="phone no" name="phone no"><br><br>
+    <label for="email">Email-Id:</label>
+    <input type="email" id="Email" name="Email"><br><br>
+    <label for="">PAN-No.:</label>
+    <input type="Pan" id="PAN" name="pan"><br><br>
+    <button class="button-8">Submit</button>
+     </div>
+     <div class="itemb">
+         <h2 style="border: 2px solid rgb(163, 125, 125);background-color: rgb(223, 209, 191);">Ownership</h2>  
+    <form style="padding-top: 20px;">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have nothing</label><br><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br><br>
+    </form>
+     </div>
+     <div class="itemc">
+         <h2 style="border: 2px solid rgb(163, 125, 125);background-color: rgb(223, 209, 191);">Danger zone</h2>
+          <h2 style="color: rgb(172, 168, 168);float: left; padding: 10px;border-bottom: 2px solid rgb(218, 208, 208);">Request for</h2>
+        </div>
+     <div class="itemd">
+         <h2 style="border: 2px solid rgb(163, 125, 125);background-color: rgb(223, 209, 191);">Prev. Meetings</h2>
+         <ol>
+            <li>dates</li>
+            <li>dates</li>
+            <li>dates</li>
+            <li>dates</li>
+          </ol>
+        </div>
+    </div>
+        <script src="script.js"></script>
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    
+        <!-- Load our React component. -->
+        <script src="React.js"></script>
+    
+</body>
+</html>
